@@ -66,7 +66,7 @@ const Demo = () => {
         </Grid>
         <Grid item xs={6}>
           <TextField
-            label="Input Language"
+            label="Output Language"
             variant="outlined"
             value={opLang}
             onChange={(e) => setOpLang(e.target.value)}
